@@ -23,6 +23,8 @@ fz-nav-text:18px;
 	--hover-nav:#28A745;
 	--white-font-color:#FFFFFF;
 
+	--public-post-bgc: #0284D0;
+
 	--fz-title:38px;
 	--fz-subtitle: 20px;
 	--fz-text:18px;
@@ -279,4 +281,35 @@ background-color: #1f8035;
 	margin-right: 0;
 	
 
+}
+
+/* Blog Post One */
+.public {
+	background-color: var(--public-post-bgc);
+	
+}
+.text {
+	color: var(--secondary-font-color);
+}
+.public-subtitle {
+    font-weight: 400;
+	font-size: 20px;
+	line-height: 33px;
+}
+.public-title {
+	font-weight: 300;
+	font-size: 38px;
+	line-height: 48px;
+}
+.public-text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+}
+.btn {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	border: 1px solid #FFFFFF;
+    border-radius: 5px;
 }
